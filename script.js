@@ -2,6 +2,23 @@
 Codewars JS training
 */
 
+/* Best Practices answer:
+
+function candies(kids){
+  if (kids.length < 2) return -1;
+
+  var max = Math.max.apply(null, kids);
+  var extraCandies = kids.reduce(function (total, kid) {
+    return total + max - kid;
+  }, 0);
+  return extraCandies;
+}
+*/
+
+
+
+
+
 function candies(kids) {
   var saved = 0;
   var sum = 0;
