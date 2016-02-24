@@ -5,7 +5,6 @@
 * Finally you add the obtained values using reduce method the values
 */
 
-
 const arr = [1, 2, 3, 4, 5];
 
 const newArr = arr.filter(function (elem) {
